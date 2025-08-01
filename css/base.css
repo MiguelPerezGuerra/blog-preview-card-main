@@ -1,0 +1,31 @@
+/*--Font import--*/
+@font-face {
+    font-family: figtree;
+    src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+/*--Variables--*/
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --font-family: "figtree";
+  --font-size-text: 1.4rem;
+  --font-size-parrafo: 1.6rem;
+  --font-size-titulo: 2.2rem;
+  --font-size-subtitulo: 1.8rem;
+  --font-weight-normal: 500;
+  --font-weight-bold: 800;
+
+}
+/*--Reset--*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
